@@ -72,7 +72,6 @@ func NewPlayingCardDeck() *Deck {
 	return deck
 }
 
-// Now you can use the pre-defined main func
 func main() {
 	deck := NewPlayingCardDeck()
 
@@ -93,6 +92,6 @@ func main() {
 // we drew, we needed to do some extra work to convert the interface{} type
 // into a *PlayingCard type with access to the Suit and Rank fields. Using the
 // Deck this way will work, but can also result in errors if a value other than
-// *PlayingCard is added to the Deck. By updating our Deck to use interface,
+// *PlayingCard is added to the Deck. By updating our Deck to use generics,
 // you can benefit from Go’s strong types and static type checking while still
 // having the flexibility accepting interface{} values provides.
