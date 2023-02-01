@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-// We define a struct named PlayingCard with the properties Suit and Rank, to
+// Define a struct named PlayingCard with the properties Suit and Rank, to
 // represent the cards from a deck of 52 playing cards. The Suit will be one of
 // Diamonds, Hearts, Clubs, or Spades, and the Rank will be A, 2, 3, and so on
 // through K.
