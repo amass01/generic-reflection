@@ -91,7 +91,7 @@ func main() {
 
 // That's nice, but to access specific information about the *PlayingCard value
 // we drew, we needed to do some extra work to convert the interface{} type
-// into a  *PlayingCard type with access to the Suit and Rank fields. Using the
+// into a *PlayingCard type with access to the Suit and Rank fields. Using the
 // Deck this way will work, but can also result in errors if a value other than
 // *PlayingCard is added to the Deck. By updating our Deck to use interface,
 // you can benefit from Go’s strong types and static type checking while still
